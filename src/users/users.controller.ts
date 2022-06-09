@@ -8,7 +8,6 @@ import {
   Post,
   Query,
   NotFoundException,
-  UseInterceptors,
 } from '@nestjs/common';
 import { Serialize } from 'src/interceptors/serialize.interceptor';
 import { CreateUserDto } from './dto/create-user.dto';
