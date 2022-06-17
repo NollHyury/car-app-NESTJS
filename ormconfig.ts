@@ -2,6 +2,10 @@ import { ConnectionOptions } from 'typeorm';
 
 const dbConfig = {
   synchronized: false,
+  migrations: ['migrations/*.js'],
+  cli: {
+    migrationsDir: 'migrations',
+  },
 };
 
 switch (process.env.NODE_ENV) {
