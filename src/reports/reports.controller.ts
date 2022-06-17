@@ -13,7 +13,7 @@ import { AuthGuard } from '../guards/auth.guard';
 import { AdminGuard } from '../guards/admin.guard';
 import { CreateReportDto } from './dto/create-report.dto';
 import { ReportsService } from './reports.service';
-import { User } from 'src/users/user.entity';
+import { User } from '../users/user.entity';
 import { ReportDto } from './dto/report.dto';
 import { Serialize } from '../interceptors/serialize.interceptor';
 import { ApproveReportDto } from './dto/approve-report.dto';
