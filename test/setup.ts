@@ -4,7 +4,7 @@ import { getConnection } from 'typeorm';
 
 global.beforeEach(async () => {
   try {
-    await rm(join(__dirname, '..', 'text.sqlite'));
+    await rm(join(__dirname, '..', 'test.sqlite'));
   } catch (error) {}
 });
 
