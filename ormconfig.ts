@@ -1,5 +1,4 @@
 import { TypeOrmModuleOptions } from '@nestjs/typeorm';
-import { ConnectionOptions } from 'typeorm';
 
 const dbConfig = {
   synchronized: false,
