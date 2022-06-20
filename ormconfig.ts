@@ -1,3 +1,4 @@
+import { TypeOrmModuleOptions } from '@nestjs/typeorm';
 import { ConnectionOptions } from 'typeorm';
 
 const dbConfig = {
@@ -30,4 +31,4 @@ switch (process.env.NODE_ENV) {
     throw new Error('Unknown environment');
 }
 
-export default dbConfig as unknown as ConnectionOptions;
+export default dbConfig as TypeOrmModuleOptions;
